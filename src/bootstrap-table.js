@@ -2190,7 +2190,6 @@ class BootstrapTable {
         continue
       }
 
-      $.extend(this.options.data[params.index], params.row)
       if (params.hasOwnProperty('replace') && params.replace) {
         this.options.data[params.index] = params.row
       } else {
